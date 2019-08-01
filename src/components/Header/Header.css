@@ -1,0 +1,31 @@
+.header{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100vh;
+     display:flex;
+    justify-content: center;
+    align-items: center 
+}
+
+.header-content{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    display: block;
+}
+
+.header-content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff; 
+} 
+
+.header-content h2{
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 1.7rem;
+}
+  
+  
