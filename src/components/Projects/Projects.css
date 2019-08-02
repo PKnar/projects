@@ -24,10 +24,10 @@ padding:40px
     width:400px;
     border:1px solid rgba(39, 39, 39, 0.603);
     margin:5px;
+    height:300px;
     box-shadow: 1px 1px 3px 0.5px black;
     border-radius: 25px;
-    transition:0.3s;
-    height:480px; 
+    transition:0.3s; 
     background-color: rgb(240, 240, 240)
 
 }
@@ -82,3 +82,25 @@ video{
 
 
 
+@media (max-width:500px){
+    .card h2{
+       font-size:16px
+    }
+    .card h3{
+        font-size:12px;
+        margin-top:-8px
+     }
+     .card img{
+      width:30px
+     }
+     .card {
+       width:300px
+     }
+     .links a{
+     font-size:10px
+
+    }
+    .links{
+
+    }
+}
