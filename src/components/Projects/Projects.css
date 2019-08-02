@@ -28,7 +28,7 @@ padding:40px
     border-radius: 25px;
     transition:0.3s;
     height:480px; 
-    background-color: #fff
+    background-color: rgb(240, 240, 240)
 
 }
 
@@ -62,7 +62,7 @@ video{
     text-decoration: none;
     margin:5px;
     padding:8px;
-    background-color:#fff;
+    background-color: rgb(243, 242, 242);
     box-shadow: 0.5px 1px 3px 1px #000;
     color:#000;
     border-radius: 4px;

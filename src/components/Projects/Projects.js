@@ -22,7 +22,7 @@ const Projects =(props)=>{
         <h2>{project.title}</h2>
         <h3>{project.description}</h3>
         <div className='logos'> {logos}</div>
-        <video  src={project.source}  autoplay={true} loop={true} />
+        <video  src={project.source}  controls={true} />
         </div>
         <div className='links'>
           <a href={`${project.demo}`} target={'_blank'} id='demo'>Demo</a>
