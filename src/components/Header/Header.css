@@ -1,5 +1,4 @@
 .header{
-    background-color: black;
     background-size: cover;
     background-position: center;
     width:100%;
@@ -12,20 +11,41 @@
 .header-content{
     position: relative;
     text-align: center;
-    color: #fff;
-    display: block;
 }
 
 .header-content h1{
     font-size: 4rem;
     font-weight: 700;
-    color: #fff; 
+    color:rgb(212, 212, 212)
 } 
 
 .header-content h2{
     font-family: "Montserrat",Helvetica,Arial,sans-serif;
     font-weight: 300;
     font-size: 1.7rem;
+    color:rgb(212, 212, 212)
 }
   
-  
+.header-buttons a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    margin:5px;
+    border:1px solid transparent;
+    padding:10px;
+    border-radius: 5px;
+    font-weight:bold
+}
+
+.header-buttons #violet{
+    background-color: blueviolet;
+    box-shadow: 0.5px 0.2px 2px 1px #fff
+}
+
+.header-buttons #transparent{
+    border:2px solid #fff;
+
+}
+
+
+
