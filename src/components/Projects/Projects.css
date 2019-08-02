@@ -32,7 +32,7 @@ padding:40px
 
 
 .video-logos{
-  height:250px
+  height:500px
 }
 
 video{
@@ -48,7 +48,10 @@ video{
 }
 
 .links{
+    display:flex;
     margin-top:20px;
+    justify-content: center;
+    align-items: center
 }
 
 .links a{
@@ -98,6 +101,9 @@ video{
         margin-top:16px;
     }
     video{
-        width:200px
+        width:200px;
+    }
+    .video-logos{
+        height:300px
     }
 }
